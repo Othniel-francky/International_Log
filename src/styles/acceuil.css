@@ -25,3 +25,19 @@ body{
     text-align: center;
     margin-top: 10%;
 }
+
+.phrase h1{
+    font-size: 5rem;
+}
+
+.bouttom{
+    text-align: center;
+}
+
+.bouttom button{
+    height: 40px;
+    width: 10%;
+    background-color: gray;
+    color: white;
+}
+
