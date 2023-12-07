@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../assets/Acceuil.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon{
+    font-size: 50px;
+}
+
+.phrase{
+    text-align: center;
+    margin-top: 10%;
+}
