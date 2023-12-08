@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Acceuil from './Components/Acceuil';
 import Register from './Components/Register';
-import Login from './Components/Login'
+import Login from './Components/Login';
 
 function App() {
 

@@ -4,6 +4,7 @@ import { IoMdPerson } from "react-icons/io";
 import { FaEnvelope } from "react-icons/fa";
 import { RiLockPasswordFill } from "react-icons/ri";
 import "../styles/register.css"
+import { Link } from 'react-router-dom';
 
 function Register() {
 
@@ -16,7 +17,7 @@ function Register() {
     </div>
 
     <div className="form-box">
-        <h1 id='title'>S'enregistrer</h1>
+        <h1 id='title'>Connexion</h1>
         <form action="">
             <div className="input-group" id='nameField'>
 
@@ -32,7 +33,7 @@ function Register() {
                 <p>Lost password <a href="#">Clique Here</a></p>
             </div>
             <div className="btn-field">
-                <button type='button' id='signupBtn'>S'enregistrer</button>
+                <Link to="/register"><button type='button' id='signupBtn'>S'enregistrer</button></Link>
                 <button type='button'id='signinBtn' className='disable'>Se Connecter</button>
             </div>
         </form>
