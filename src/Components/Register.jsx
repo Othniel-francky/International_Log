@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { SiYourtraveldottv } from "react-icons/si";
 import { IoMdPerson } from "react-icons/io";
 import { FaEnvelope } from "react-icons/fa";
@@ -6,6 +6,8 @@ import { RiLockPasswordFill } from "react-icons/ri";
 import "../styles/register.css"
 
 function Register() {
+
+   
   return (
     <div className='register'>
      <div className='header'>
@@ -14,9 +16,9 @@ function Register() {
     </div>
 
     <div className="form-box">
-        <h1>S'enregistrer</h1>
+        <h1 id='title'>S'enregistrer</h1>
         <form action="">
-            <div className="input-group">
+            <div className="input-group" id='nameField'>
                 <div className="input-field">
                 <IoMdPerson className='ico'/>
                 <input type="text" placeholder='Name'/>
@@ -34,8 +36,8 @@ function Register() {
                 <p>Lost password <a href="#">Clique Here</a></p>
             </div>
             <div className="btn-field">
-                <button type='button'>Sign Up</button>
-                <button type='button' className='disable'>Sign In</button>
+                <button type='button' id='signupBtn'>Sign Up</button>
+                <button type='button'id='signinBtn' className='disable'>Sign In</button>
             </div>
         </form>
     </div>
