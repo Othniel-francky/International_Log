@@ -12,10 +12,22 @@ body{
     background-size: cover;
 }
 
-.header{
+.hea{
+    display: flex;
+    justify-content: space-between;
+}
+
+.haut{
     display: flex;
     align-items: center;
-    gap: 10px;
+}
+
+.bout button{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    border: none;
 }
 .icon{
     font-size: 50px;
@@ -28,6 +40,7 @@ body{
 
 .phrase h1{
     font-size: 5rem;
+    color: beige;
 }
 
 .bouttom{
@@ -39,5 +52,6 @@ body{
     width: 10%;
     background-color: gray;
     color: white;
+    cursor: pointer;
 }
 
